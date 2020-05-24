@@ -1,46 +1,46 @@
 module.exports = {
   siteMetadata: {
-    title: `Catalyst Onepage`,
+    title: `SL`,
     description: `Child theme and starter from gatsby-theme-catalyst-core`,
-    author: `Eric Howey`,
+    author: `Saurish Lahiri`,
     siteUrl: `https://gatsby-starter-catalyst-onepage.netlify.com`, //Change to you site address, required for sitemap.xml and robots.txt file
     menuLinks: [
       {
         name: `Not Used`, //Placeholder due to graphql
-        link: `#` //Placeholder due to graphql
-      }
+        link: `#`, //Placeholder due to graphql
+      },
     ],
     anchorLinks: [
       {
-        name: `Section 1`,
-        link: `#section1`
+        name: `About Me`,
+        link: `#section1`,
       },
       {
-        name: `Section 2`,
-        link: `#section2`
+        name: `Work`,
+        link: `#section2`,
       },
       {
-        name: `Section 3`,
-        link: `#section3`
-      }
+        name: `Contact`,
+        link: `#section3`,
+      },
     ],
     socialLinks: [
       {
         name: `e-mail`,
         url: `eric@erichowey.dev`,
-        location: `footer`
+        location: `footer`,
       },
       {
         name: `Github`,
         url: `https://www.github.com/ehowey`,
-        location: `all`
+        location: `all`,
       },
       {
         name: `Twitter`,
         url: `https://www.twitter.com/erchwy`,
-        location: `footer`
-      }
-    ]
+        location: `footer`,
+      },
+    ],
   },
   plugins: [
     `gatsby-theme-catalyst-onepage`,
@@ -53,8 +53,8 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#000000`,
         display: `minimal-ui`,
-        icon: `src/images/logo-512.png` // This path is relative to the root of the site.
-      }
-    }
-  ]
+        icon: `src/images/logo-512.png`, // This path is relative to the root of the site.
+      },
+    },
+  ],
 };
