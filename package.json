@@ -26,6 +26,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "repository": {
@@ -34,6 +35,5 @@
   },
   "bugs": {
     "url": "https://github.com/ehowey/gatsby-starter-catalyst-basic/issues"
-  },
-  "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  }
 }

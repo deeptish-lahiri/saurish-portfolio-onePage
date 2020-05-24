@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/saurish-portfolio-onePage",
   siteMetadata: {
     title: `SL`,
     description: `Child theme and starter from gatsby-theme-catalyst-core`,
