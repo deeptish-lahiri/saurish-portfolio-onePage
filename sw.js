@@ -41,14 +41,14 @@ self.__precacheManifest = [
     "url": "1bfc9850-a7dc0a00028284acb472.js"
   },
   {
-    "url": "app-286d9ee7c5f7d8060206.js"
+    "url": "app-f61ede133ea47c40e698.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-961259b0344b47eed308.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "37f40bcfdcd3b0aa5e29d137e0c081c0"
+    "revision": "888d04ea5b65cd384c7c7159573fa399"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "39e0bd8ea55d5ec2190f2c5a3ca837a6"
+    "revision": "4d00060cd68c4b9aedd020760b554edc"
   },
   {
     "url": "manifest.webmanifest",
@@ -84,7 +84,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/saurish-portfolio-onePage/app-286d9ee7c5f7d8060206.js`))) {
+  if (!resources || !(await caches.match(`/saurish-portfolio-onePage/app-f61ede133ea47c40e698.js`))) {
     return await fetch(event.request)
   }
 
